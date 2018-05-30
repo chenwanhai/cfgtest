@@ -2,7 +2,7 @@ server:
   port: 9100
 spring:
   application:
-    name: citicmall-user,common-dev
+    name: citicmall-user
 #  profiles:
 #    include: common-dev
 #  datasource:
