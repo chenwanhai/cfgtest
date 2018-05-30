@@ -2,9 +2,9 @@ server:
   port: 9100
 spring:
   application:
-    name: citicmall-user
-  profiles:
-    include: common-dev
+    name: citicmall-user, common-dev
+#  profiles:
+#    include: common-dev
 #  datasource:
 #      name: test
 #      url: jdbc:mysql://127.0.0.1:3306/citic-shop
