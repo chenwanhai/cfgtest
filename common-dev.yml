@@ -49,7 +49,7 @@ spring:
 #mapper文件位置,model类路径
 mybatis:
   mapper-locations: classpath:sql-mapper/**/*.xml
-  type-aliases-package: com.citicmall.model
+  type-aliases-package: com.cmall.domain
 
 #pagehelper分页插件
 # pagehelper:
